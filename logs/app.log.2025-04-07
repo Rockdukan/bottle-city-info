@@ -1,0 +1,71 @@
+[2025-04-07 20:59:53] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:01:03] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:05:07] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:06:28] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:10:24] CRITICAL: Необработанное исключение:
+Traceback (most recent call last):
+  File "/home/igor/Projects/MY_PRJ/WEB/city_info/main.py", line 2, in <module>
+    from app.controllers import html, static
+  File "/home/igor/Projects/MY_PRJ/WEB/city_info/app/controllers/html.py", line 7, in <module>
+    from app.services import city
+  File "/home/igor/Projects/MY_PRJ/WEB/city_info/app/services/city.py", line 43
+    city_objects[tag_category][tag_value] = geo_objects
+    ^^^^^^^^^^^^
+SyntaxError: expected 'except' or 'finally' block
+[2025-04-07 21:14:58] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:17:13] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:17:38] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 21:19:50] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:20:13] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 21:32:10] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:32:34] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 21:40:36] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:41:00] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 21:44:03] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:44:29] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 21:46:21] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:46:44] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 21:49:39] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:50:04] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 21:53:43] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 21:54:08] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 22:18:46] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 22:20:39] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 22:23:41] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 22:24:03] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 22:24:45] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 22:25:09] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 22:25:10] INFO: Запрос: GET http://127.0.0.1:8080/static/js/chart.js
+[2025-04-07 22:25:10] INFO: Запрос: GET http://127.0.0.1:8080/static/css/style.css
+[2025-04-07 22:25:10] INFO: Запрос: GET http://127.0.0.1:8080/static/img/background.jpg
+[2025-04-07 22:27:53] INFO: Запрос: GET http://127.0.0.1:8080/static/js/chart.umd.js.map
+[2025-04-07 22:28:45] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 22:29:13] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 22:29:14] INFO: Запрос: GET http://127.0.0.1:8080/static/css/style.css
+[2025-04-07 22:29:14] INFO: Запрос: GET http://127.0.0.1:8080/static/js/chart.js
+[2025-04-07 22:31:04] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 22:31:25] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 22:33:53] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 22:34:19] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 22:52:45] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 22:53:08] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 22:54:24] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 22:54:46] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 22:55:38] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 22:56:02] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 23:09:49] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 23:10:13] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 23:22:00] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 23:22:28] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 23:29:59] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 23:30:24] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 23:31:07] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 23:31:32] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 23:36:30] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 23:36:55] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 23:42:02] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 23:42:28] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 23:44:10] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 23:44:36] WARNING: Нет данных для Krasnodar: leisure=water_park
+[2025-04-07 23:54:17] INFO: Запрос: GET http://127.0.0.1:8080/
+[2025-04-07 23:54:44] WARNING: Нет данных для Krasnodar: leisure=water_park

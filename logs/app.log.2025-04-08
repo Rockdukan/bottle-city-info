@@ -1,0 +1,3 @@
+[2025-04-08 02:39:55] INFO: Запрос: GET http://127.0.0.1:8080/static/css/style.css
+[2025-04-08 02:39:55] INFO: Запрос: GET http://127.0.0.1:8080/static/js/chart.umd.js.map
+[2025-04-08 02:39:55] ERROR: 404 → GET http://127.0.0.1:8080/static/js/chart.umd.js.map

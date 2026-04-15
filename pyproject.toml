@@ -1,0 +1,23 @@
+[project]
+name = "city-info"
+version = "0.1.0"
+description = "Retrieves and displays city objects and boundaries from OpenStreetMap using OSMnx and Folium."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "bottle>=0.12.25",
+    "folium==0.15.0",
+    "geopandas==0.14.1",
+    "osmnx==1.7.1",
+]
+
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle
+    "F",      # pyflakes
+    "UP",     # pyupgrade
+]
